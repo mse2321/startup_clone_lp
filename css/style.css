@@ -504,15 +504,24 @@ nav a {
   padding-top: 11em;
   height: 45.938rem;
 }
-.introduction .button {
-  background-color: orange;
+.introduction .big-button {
+  background-color: #F15A29;
   color: #fff;
-  padding: 1em;
+  padding: 16px 26px;
+  border-style: none;
+  text-shadow: none;
+  line-height: 1.33em;
   width: 8%;
   margin: 0 auto;
-  border-radius: 5px;
+  border-radius: 4px;
   font-size: 18px;
   font-weight: 400;
+  display: block;
+}
+.introduction .big-button:hover {
+  background-color: #D9400E;
+  color: #fff;
+  cursor: pointer;
 }
 .introduction h1 {
   margin-bottom: 0;
