@@ -433,10 +433,28 @@ nav {
 }
 
 nav ul {
-  display: inline;
   padding: 0;
+  margin: 1.5em 25em 0 0;
+  list-style-type: none;
+}
+
+nav ul li{
+  display: inline;
+  margin: .8em;
+  font-weight: 400;
+}
+
+nav a {
+  text-decoration: none;
+  color: #666;
+}
+nav a:hover, a:focus {
+  color: #000;
 }
 
 #header-logo {
   float: left;
+}
+#meet {
+  font-weight: bold;
 }
