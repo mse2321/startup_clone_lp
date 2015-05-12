@@ -428,3 +428,15 @@ th {
 
 /** End of normalize code **/
 
+nav {
+  float: right;
+}
+
+nav ul {
+  display: inline;
+  padding: 0;
+}
+
+#header-logo {
+  float: left;
+}
