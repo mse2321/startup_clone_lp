@@ -428,9 +428,19 @@ th {
 
 /** End of normalize code **/
 
-nav {
+/* Navigation Section */
+.top-navigation {
   float: right;
+  background-color: #fff;
 }
+
+.top-navigation > .content{
+  float: right;
+  width: 970px;
+  height: 70px;
+  margin: 0 auto;
+}
+
 
 nav ul {
   padding: 0;
@@ -452,9 +462,14 @@ nav a:hover, a:focus {
   color: #000;
 }
 
-#header-logo {
+.logo {
   float: left;
+  margin-left: 400px;
+  margin-top: 20px;
 }
 #meet {
   font-weight: bold;
+}
+.links {
+  
 }
