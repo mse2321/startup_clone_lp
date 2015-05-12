@@ -460,7 +460,7 @@ body {
 
 nav ul {
   padding: 0;
-  margin: 1em 2em 0 0;
+  margin: .7em 1em 0 0;
   list-style-type: none;
 }
 
@@ -493,6 +493,34 @@ nav a {
 }
 
 /* Header */
-.image-header {
-  background-image: url("img/first-background copy.jpg") center center no-repeat;
+.introduction {
+  background-image: url("../img/first-background copy.jpg");
+  background-color: #666;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding-top: 11em;
+  height: 45.938rem;
+}
+.introduction .button {
+  background-color: orange;
+  color: #fff;
+  padding: 1em;
+  width: 8%;
+  margin: 0 auto;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.introduction h1 {
+  margin-bottom: 0;
+  font-weight: 200;
+  font-size: 50px;
+}
+.introduction h3 {
+  margin-top: .5em;
+  font-weight: 200;
+  font-size: 24px;
 }
