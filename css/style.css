@@ -533,3 +533,27 @@ nav a {
   font-weight: 200;
   font-size: 24px;
 }
+
+/* Middle Section */
+.info {
+  text-align: center;
+  color: #000;
+  margin: 0 auto;
+  display: block;
+}
+section.info > div.content {
+  width: 100%;
+  text-align: none;
+}
+.info-container {
+  width: 100%;
+  display: block;
+}
+.info h2 {
+  font-size: 40px;
+  font-weight: 200;
+}
+.info h4 {
+  font-size: 25px;
+  font-weight: 300;
+}
