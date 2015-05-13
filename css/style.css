@@ -535,25 +535,31 @@ nav a {
 }
 
 /* Middle Section */
-.info {
-  text-align: center;
+.cases {
   color: #000;
   margin: 0 auto;
-  display: block;
+  text-align: center;
 }
-section.info > div.content {
+section.cases > div.content {
   width: 100%;
-  text-align: none;
+  margin: 0 auto;
+  text-align: center;
+  display: inline-flex;
 }
-.info-container {
-  width: 100%;
-  display: block;
-}
-.info h2 {
+
+.cases h2 {
   font-size: 40px;
   font-weight: 200;
 }
-.info h4 {
+.cases h4 {
   font-size: 25px;
   font-weight: 300;
+}
+.cases .devices {
+  width: 33.3333%;
+  /* styles to assist with debugging */
+  border: 1px solid black;
+  box-sizing: border-box;
+  height: 4em;
+  margin: 0 auto;
 }
