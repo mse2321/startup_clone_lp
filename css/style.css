@@ -563,8 +563,8 @@ section.cases > div.content {
 }
 .cases .devices {
   width: 33.3333%;
+  border: none;
   /* styles to assist with debugging */
-  border: 1px solid black;
   box-sizing: border-box;
   height: 4em;
   margin: 0 auto;
