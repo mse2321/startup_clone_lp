@@ -566,6 +566,10 @@ section.cases > div.content {
   height: 4em;
   margin: 0 auto;
 }
+.cases img {
+  width: 127px;
+  height: 127px;
+}
 .icons {
   width: 300px;
   margin: 0 auto;
