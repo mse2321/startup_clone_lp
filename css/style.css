@@ -566,24 +566,38 @@ section.cases > div.content {
   height: 4em;
   margin: 0 auto;
 }
-div.content > ul.icons {
-  list-style-type: none;
+.icons {
+  width: 300px;
+  margin: 0 auto;
+  padding-right: 2.5em;
 }
 ul.icons > li {
   display: inline-block;
-  margin: 0 1em;
+  margin: 1em .2em;
+  border: 1px solid #EAEBEC;
+  border-radius: 80%;
+  padding: .5em;
+  width: 40px;
+  height: 40px;
+  list-style-type: none;
 }
-footer.social > div.content{
-  margin: 0 auto;
+.social > div.content{
+  margin: -1em auto 0 auto;
   text-align: center;
+  width: 60%;
 }
-footer.social > h3 {
+.content h5 {
   text-align: center;
-  font-weight: normal;
+  font-weight: thin;
+  font: inherit;
   color: #000;
-  font-size: 1em;
+  margin-bottom: .2em;
 }
 footer.social {
-  margin-top: 40px;
+  margin-top: 8em;
 }
-
+.content hr {
+  border: 0;
+  border-top: 1px solid #eaebec;
+  margin: 1.313rem 0;
+}
