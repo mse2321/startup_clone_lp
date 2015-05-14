@@ -566,3 +566,23 @@ section.cases > div.content {
   height: 4em;
   margin: 0 auto;
 }
+div.content > ul.social {
+  list-style-type: none;
+}
+ul.social > li {
+  display: inline-block;
+  margin: 0 1em;
+}
+footer > div.content{
+  margin: 0 auto;
+  text-align: center;
+}
+footer > h3 {
+  text-align: center;
+  font-weight: normal;
+  color: #000;
+  font-size: 1em;
+}
+footer {
+  margin-top: 40px;
+}
