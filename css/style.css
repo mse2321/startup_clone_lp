@@ -536,6 +536,9 @@ nav a {
   font-weight: 200;
   font-size: 24px;
 }
+.introduction .content {
+  margin-top: 5.8em;
+}
 
 /* Middle Section */
 .cases {
@@ -570,6 +573,8 @@ section.cases > div.content {
   width: 127px;
   height: 127px;
 }
+
+/* Footer */
 .icons {
   width: 300px;
   margin: 0 auto;
@@ -599,9 +604,19 @@ ul.icons > li {
 }
 footer.social {
   margin-top: 8em;
+  margin-bottom: 10em;
 }
 .content hr {
   border: 0;
   border-top: 1px solid #eaebec;
   margin: 1.313rem 0;
+}
+.fa-twitter {
+  color: #55ACEE;
+}
+.fa-facebook {
+  color: #4C66A4;
+}
+.fa-instagram {
+  color: #4C66A4;
 }
